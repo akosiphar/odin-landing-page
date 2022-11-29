@@ -140,8 +140,64 @@ img {
     border-style: solid;
 }
 
+/* quote section */
+
+.quoteContainer {
+    background-color: #e5e7eb;
+}
+
+.quoteBox {
+    width: 60%;
+    margin: auto;
+    padding: 100px 0;
+}
+
 
 .quote {
     font-size: 36px;
     font-weight: 400;
 }
+
+.author {
+    display: block;
+    text-align: right;
+}
+
+/* CTA section */
+
+.cta {
+    padding: 5% 10%;
+
+}
+
+.boxbg {
+    width: 80%;
+    padding: 5%;
+    font-size: 20px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ctaBtn {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    border: white;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.ctaBtn:hover {
+    background-color: white;
+    color: black;
+}
+
